@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>
+        NFL Stats - ABOUT   </title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFL PROS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://coder-coder.com/wp-content/themes/codercoder/dist/style.css?cb=1574196640096" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500|Dosis:600|Roboto:400,500,700" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1843c1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1">
+    <meta name="msapplication-TileColor" content="#1843c1">
+    <meta name="google-site-verification" content="HSMR_zNf5BC6sqLFN1UaJSQPVhJewfFeFFNIj1hpm_c">
+       
+
+</head>
+
+<body>
+	
+    <!-- Header 100% -->
+    <header class="header">
+
+        <!-- Inner Wrapper max 1280px -->
+        <div class="wrapper">
+                
+            <!-- Logo -->
+            <section class="logo uppercase center">
+                <a href="MainPage.html"><img src="nfllogo.png"><a style="color: floralwhite;"></a><div class="logo"></div></a>
+            </section>
+
+            <!-- Nav -->
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:darkblue;">
+                <!-- Brand -->
+                <a class="navbar-brand" style="font-family: Georgia, 'Times New Roman', Times, serif;" href="MainPage.html">MAIN</a>
+              
+                <!-- Links -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" style="font-family: Georgia, 'Times New Roman', Times, serif;" href="About.html">ABOUT</a>
+                  </li>
+                </ul>
+              </nav>
+
+        </div>
+    
+        
+        
+    </header>
+
+    <!-- Main Content -->
+	<!-- BEGIN: templates/single.twig -->
+<main>
+
+	<!-- Inner Wrapper -->
+	<article class="flex-container wrapper">
+			
+		<!-- Hero & Post Wrapper -->
+		<div class="content">
+			
+									<!-- Hero -->
+			<section class="hero">
+				
+								<img class="hero__image" src="rwpics.jpg">
+				
+			</section>
+			
+			<!-- Post Content -->			
+			<section id="post" class="post">
+				
+				<h1>NFL STATS: How did we do it?<h1>	
+				
+				<div class="post__meta">
+</div>
+				<div class="post__content">
+					<p></p>
+
+<ol>
+<blockquote><p><strong>Background<br>
+
+	<p>Our data was collected through Sportreference. Sportsreference is a free python API that pulls the stats from www.sports-reference.com and allows them to be easily be used in python-based applications, especially ones involving data analytics and machine learning. </p>
+
+</strong> Sportsreference exposes a plethora of sports information from major sports leagues in North America, such as the NBA, MLB, and NFL. We chose to work with the NFL data. (of course!) <a href="https://pypi.org/project/sportsreference/" target="_blank" rel="noopener nofollow noreferrer">Check out Sports Reference here!</a></p></blockquote>
+<h2>Our Data</h2>
+<p>We used the NFL package to pull our data from Sports Reference. We also pulled the NCAA football data. We installed sportsreference and used python to pull in the 
+	data. We collected an abundance of metrics and information from the NFL and NCAA. We collected many CSVs and began the process. We used Python to import much of the information. We imported teams, rosters, and players. 
+	From there we used several arrays to organize the data. We did this for both the NFL data and the NCAA data. From there we trained our model and created visualizations through Tableau. 
+	<strong>Keep Reading!</strong></p>
+<p>
+	While pulling the data together, you will notice in our code that we imported teams, rosters, and players. Team in the core module and exposed metrics on a team-by-team basis, such as current records, total points, interceptions, and more. 
+	We passed our desired years as a string while instantiating the "Team" class. From there we created a Pandas Dataframe of all statitical categories for all of the teams in the nFL AND NCAA. 
+	As stated before, we also imported players and rosters. Take a look at our code below to get an idea of how we did it. 
+
+</p>
+<a>
+	<img src="Screen Shot 2020-02-18 at 7.44.16 AM.png">
+	<p>*Snippet of our code</p>
+</a>
+<h2>APPROXIMATE VALUE</h2>
+<p>One of our main goal in training the data was to find the approximate value. We attempted to put a single number on the seasonal value of a player at any position from the year.
+	 Approximate value isn't considered the end all be all metric. It is considered a way to find the overall value of a player instead of just going by a single metric such as how many touchdowns 
+	a player scored. Essentially, AV is a substitute for --- and a significant improvement upon, in my opinion --- metrics like 'number of seasons as a starter' or 'number of times making the pro bowl' or the like. You should think of it as being essentially like those two metrics, but with interpolation in between. That is, 'number of seasons as a starter' is a reasonable starting point if you're trying to measure, say, how good a particular draft class is, or what kind of player you can expect to get with the #13 pick in the draft. But obviously some starters are better than others. Starters on good teams are, as a group, better than starters on bad teams. Starting WRs who had lots of receiving yards are, as a group, better than starting WRs who did not have many receiving yards. Starters who made the pro bowl are, as a group, better than starters who didn't, and so on. And non-starters aren't worthless, so they get some points too.
+<blockquote><p><strong>Approximate Value<br>
+	
+</strong> Still confused about what approximate value is? Click here for more info! <a href="https://www.pro-football-reference.com/blog/indexd961.html?page_id=8061" target="_blank" rel="noopener nofollow noreferrer">Click here!</a></p></blockquote>
+	
+</p>
+<P>Below are some addiotional visualizations of our dataset. </P>
+</a>
+<a>
+  <img src="Defense_correlation.png" style="align-content: center;">
+   <p>Defense Correlation</p>
+</a>
+<a>
+  <img src="K_correlation.png" style="">
+  <p>Kicker Correlation</p>
+</a>
+
+<a>
+  <img src="QB_stats_corrlation.png">
+  <p>Quarter Back Correlation</p>
+</a>
+<a>
+    <img src="RB_correlation.png" >
+    <p>Running Back Correlation</p>
+</a>
+<a>
+    <img src="WR_TE_correlation.png" >
+    <p>Wide Receiver Correlation</p>
+</a>
+<body>
